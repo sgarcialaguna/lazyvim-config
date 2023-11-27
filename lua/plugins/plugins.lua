@@ -31,4 +31,6 @@ return {
       search_method = "cover_or_next",
     },
   },
+  -- Git integration
+  { "tpope/vim-fugitive" },
 }
