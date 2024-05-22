@@ -14,6 +14,21 @@ return {
   { "stevearc/stickybuf.nvim", config = true },
   -- Git integration
   { "tpope/vim-fugitive", vscode = true },
+  {
+    "echasnovski/mini.surround",
+    enabled = false,
+  },
+  {
+    "kylechui/nvim-surround",
+    tag = "2.1.8", -- Use for stability; omit to use `main` branch for the latest features
+    config = function()
+      require("nvim-surround").setup({
+        -- Configuration here, or leave empty to use defaults
+      })
+    end,
+    vscode = true,
+  },
+
   -- point venv selector to poetry virtualenvs
   -- {
   --   "linux-cultist/venv-selector.nvim",
