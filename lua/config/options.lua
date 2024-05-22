@@ -5,3 +5,4 @@ local opt = vim.opt
 
 opt.shiftwidth = 4 -- indentation
 opt.timeoutlen = 1000 -- restore default timeout
+opt.conceallevel = 0
